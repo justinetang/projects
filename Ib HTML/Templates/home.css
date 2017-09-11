@@ -1,0 +1,143 @@
+body {
+	background: #000000;
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+	font-size: 12px;
+	color: #D2C4FF;
+	background-image:url(../Images/back3.jpg);
+}
+
+#container {
+	background: #FFFFFF;
+	margin-left: 9%;
+	margin-right: 9%;
+	border: double;
+	border-color: #5F568B;
+	padding: 5px;
+}
+
+#header {
+	border: 1px dotted;
+	border-color: #D2C4FF;
+	height: 150px;
+}
+
+#menu {
+	position: absolute;
+	border: 1px dotted;
+	border-color: #5F568B;
+	padding-left: 10px;
+	background-color: #ffffff;
+	font-size: 18px;
+	top: 510px;
+	left: 329px;
+	margin: -391.5px 0 0 -391.5px;
+}
+
+#body { 
+	height: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#content {
+	background-color: #454157;
+	border: 2px dashed;
+	border-color: #D2C4FF;
+}
+
+#footer {
+	border: 1px dotted;
+	border-color:#D2C4FF;
+	background-color:#454157;
+	font-size:10px;
+} 
+
+#box {
+	width:auto;
+	height:400px;
+	font-size:12px;
+	color:#D2C4FF;
+	border:0px;
+	overflow:auto;
+	margin-left:2px;
+}
+
+#video {
+	width:499px;
+	height:370px;
+	border:0px;
+	padding-top:35px;
+}
+
+table, th, td {
+	border: 1px dotted;
+	border-color: #D2C4FF;	
+}
+
+a:link {
+	text-decoration: none;
+	color: #736b90;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #736b90;
+}
+
+a:hover {
+	text-decoration: line-through;
+	color: #D2C4FF;
+}
+
+a:active {
+	text-decoration: none;
+	text-decoration: blink;
+	color: #736b90;
+	}
+
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #736b90;
+}
+
+h2 {
+	font-size: 20px;
+	color: #53447D;
+}
+
+strong {
+	color: #988dbe;
+}
+
+q {
+	quotes: inherit;
+	font-style:italic;
+	color:#7b739d;
+}
+
+q:before {
+    content: open-quote;
+}
+q:after {
+    content: close-quote;
+} 
+
+ul {
+	font-size:11px;
+	color:#7b739d;
+	list-style-image:url(../icon.png);
+}
+
+::-webkit-scrollbar {
+	width:12px;
+}
+::-webkit-scrollbar-button {
+	background-color:#6e668c;
+}
+::-webkit-scrollbar-track {
+	background-color:#3c3658;
+}
+::-webkit-scrollbar-thumb {
+	background-color:#6e668c;
+}
